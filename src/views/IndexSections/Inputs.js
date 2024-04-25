@@ -17,14 +17,8 @@
 */
 import React from "react";
 // nodejs library that concatenates classes
-import classnames from "classnames";
 // reactstrap components
 import {
-  FormGroup,
-  Input,
-  InputGroupAddon,
-  InputGroupText,
-  InputGroup,
   Container,
   Row,
   Col,

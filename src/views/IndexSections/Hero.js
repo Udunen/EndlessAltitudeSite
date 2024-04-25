@@ -16,7 +16,7 @@ import React from "react";
 import mainBackground from "assets/img/brand/main-background.png"; // Import the background image
 
 // reactstrap components
-import { Button, Container, Row, Col } from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 
 class Hero extends React.Component {
   render() {

@@ -21,7 +21,6 @@ import classnames from "classnames";
 
 // reactstrap components
 import {
-  Badge,
   Button,
   Card,
   CardBody,
