@@ -37,7 +37,7 @@ class Icons extends React.Component {
                 </p>
               </Col>
               <Col md="6" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                <img src={demoImage} alt="Demo Image" style={{ maxWidth: '100%', height: 420, objectFit: 'cover' }} />
+                <img src={demoImage} alt="Demo" style={{ maxWidth: '100%', height: 420, objectFit: 'cover' }} />
               </Col>
             </Row>
           </Container>
