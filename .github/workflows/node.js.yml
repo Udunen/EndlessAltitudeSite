@@ -21,11 +21,11 @@ jobs:
 
     steps:
     # - uses: actions/checkout@v3
-    # - name: Use Node.js ${{ matrix.node-version }}
+    # - name: Use Node.js {{ matrix.node-version }} add back the $$$$$$$$$$
     #   uses: actions/setup-node@v3
     # - name: Setup Node.js environment
     #   uses: actions/setup-node@v4.0.2
     #   with:
-    #     node-version: ${{ matrix.node-version }}
+    #     node-version: {{ matrix.node-version }}
     #     cache: 'npm'
-    - run: npm install
+    - run: npm ci
