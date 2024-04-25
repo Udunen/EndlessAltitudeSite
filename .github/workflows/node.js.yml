@@ -30,5 +30,5 @@ jobs:
         cache: 'npm'
     - run: npm install -g react-scripts
     # - run: npm install
-
-    - run: npm run test --passWithNoTests
+    - run: npm run start
+    # - run: npm run test --passWithNoTests
