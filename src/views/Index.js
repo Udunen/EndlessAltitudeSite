@@ -18,7 +18,6 @@
 import React from "react";
 
 // reactstrap components
-import { Container, Row } from "reactstrap";
 
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
