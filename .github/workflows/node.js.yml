@@ -28,9 +28,7 @@ jobs:
     #   with:
     #     node-version: ${{ matrix.node-version }}
     #     cache: 'npm'
-    - run: rm -rf node_modules
-    - run: rm -rf package-lock.json
-    - run: rm -rf package.json
+    - run: npm install -g react-scripts
     - run: npm install
 
     # - run: npm run test
